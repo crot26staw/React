@@ -1,0 +1,27 @@
+button {
+    margin-top: 10px;
+    width: 50%;
+    background: white;
+    border: solid 1px black;
+    border-radius: 25px;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:active{
+        transform: scale(0.9);
+    }
+    &:hover{
+       background: black;
+       color: white;
+    }
+
+    span{
+        font-size: 30px;
+        margin-right: 8px;
+    }
+}
